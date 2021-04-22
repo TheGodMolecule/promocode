@@ -16,12 +16,15 @@ What are the most important performance issues in React web applications?
 What I dislike about React thus far is that React component cause a lot of overhead and garbage collection is unpredicatble so I had intermittent issues when performing CRUD operations.
 If you click an update button multiple times in rapid succession, certain React components take too long to destruct and causes errors that are difficult to reproduce.
 
-Prequisites:
+Prequisites (please install the following applications and packages):
 VSCode
 NodeJs
 Git
 MongoDb Atlas
+cors( npm Package)
 
 To run the application:
 The application is split into server and client directories.
+Please navigate to both directories and open the root of both directories.
+type "npm start" into both commands prompts and that should start both the server and client of the application.
 
