@@ -1,4 +1,4 @@
-# promocode
+# Promocode Manager
 How do you document your code?
 
 I document my code my leaving comments in segemnts of the code that could prove ambigious to other developers.
@@ -15,3 +15,13 @@ What are the most important performance issues in React web applications?
 
 What I dislike about React thus far is that React component cause a lot of overhead and garbage collection is unpredicatble so I had intermittent issues when performing CRUD operations.
 If you click an update button multiple times in rapid succession, certain React components take too long to destruct and causes errors that are difficult to reproduce.
+
+Prequisites:
+VSCode
+NodeJs
+Git
+MongoDb Atlas
+
+To run the application:
+The application is split into server and client directories.
+
